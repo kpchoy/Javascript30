@@ -34,6 +34,9 @@
     // or create a new array and concat the old one in
 
     // or use the new ES6 Spread
+    let team4 = [...players]
+    console.log(team4);
+
 
     // now when we update it, the original one isn't changed
 
@@ -48,6 +51,8 @@
     // and think we make a copy:
 
     // how do we take a copy instead?
+    const capt = Object.assign({}, person, {number: 99});
+    console.log(capt);
 
     // We will hopefully soon see the object ...spread
 
