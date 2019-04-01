@@ -57,6 +57,10 @@ nav {
   box-shadow: 0 5px rgba(0, 0, 0, 0.1);
 }
 
+.fixed-nav li.logo {
+  max-width: 500px;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
